@@ -6,6 +6,7 @@ pipeline {
             steps {
                 echo 'Run Portal Automation Script'
                 sh "${workspace}/PortalAutomation.sh"
+                //sample
             }
         }
     }
